@@ -3,9 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Com.tests.ApiValidatorTest"/>
-      <class name="Com.tests.GetUserTest"/>
-      <class name="Com.tests.SeleniumTest"/>
+      <class name="Com.ApiTest.DeleteTest"/>
+      <class  name="Com.ApiTest.GetTest"/>
+      <class name="Com.ApiTest.HeadTest"/>
+      <class name="Com.ApiTest.OptionsTest"/>
+      <class name="Com.ApiTest.PostTest"/>
+      <class name="Com.ApiTest.PutTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

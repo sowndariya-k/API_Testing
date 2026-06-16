@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.tests.ApiValidatorTest">
+      <class name="Com.ApiTest.PostTest">
         <methods>
-          <include name="validateUserData"/>
+          <include name="postLogin_InvalidCredentials_ShouldReturnUnauthorized"/>
+          <include name="setup"/>
+          <include name="postLogin_ValidCredentials_ShouldReturnTokenAndOK"/>
         </methods>
-      </class> <!-- Com.tests.ApiValidatorTest -->
+      </class> <!-- Com.ApiTest.PostTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

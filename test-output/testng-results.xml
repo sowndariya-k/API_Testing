@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-16T09:08:04 IST" name="Default suite" finished-at="2026-06-16T09:08:06 IST" duration-ms="2095">
+  <suite started-at="2026-06-16T16:44:57 IST" name="Suite" finished-at="2026-06-16T16:44:59 IST" duration-ms="1942">
     <groups>
     </groups>
-    <test started-at="2026-06-16T09:08:04 IST" name="Default test" finished-at="2026-06-16T09:08:06 IST" duration-ms="2095">
-      <class name="Com.tests.ApiValidatorTest">
-        <test-method signature="validateUserData()[pri:0, instance:Com.tests.ApiValidatorTest@73a1e9a9]" started-at="2026-06-16T09:08:04 IST" name="validateUserData" finished-at="2026-06-16T09:08:06 IST" duration-ms="2051" status="PASS">
+    <test started-at="2026-06-16T16:44:57 IST" name="Test" finished-at="2026-06-16T16:44:59 IST" duration-ms="1942">
+      <class name="Com.ApiTest.DeleteTest">
+        <test-method signature="deleteTrainee_ValidId_ShouldReturnOK()[pri:0, instance:Com.ApiTest.DeleteTest@515c6049]" started-at="2026-06-16T16:44:57 IST" name="deleteTrainee_ValidId_ShouldReturnOK" finished-at="2026-06-16T16:44:58 IST" duration-ms="1268" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateUserData -->
-      </class> <!-- Com.tests.ApiValidatorTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- deleteTrainee_ValidId_ShouldReturnOK -->
+      </class> <!-- Com.ApiTest.DeleteTest -->
+      <class name="Com.ApiTest.PostTest">
+        <test-method signature="postTrainee_ValidData_ShouldReturnCorrectCompany()[pri:0, instance:Com.ApiTest.PostTest@51399530]" started-at="2026-06-16T16:44:58 IST" name="postTrainee_ValidData_ShouldReturnCorrectCompany" finished-at="2026-06-16T16:44:58 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTrainee_ValidData_ShouldReturnCorrectCompany -->
+        <test-method signature="postTrainee_ValidData_ShouldReturnCreated()[pri:0, instance:Com.ApiTest.PostTest@51399530]" started-at="2026-06-16T16:44:58 IST" name="postTrainee_ValidData_ShouldReturnCreated" finished-at="2026-06-16T16:44:59 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTrainee_ValidData_ShouldReturnCreated -->
+      </class> <!-- Com.ApiTest.PostTest -->
+      <class name="Com.ApiTest.HeadTest">
+        <test-method signature="headTrainee_ShouldReturnBadRequest()[pri:0, instance:Com.ApiTest.HeadTest@5e0e82ae]" started-at="2026-06-16T16:44:58 IST" name="headTrainee_ShouldReturnBadRequest" finished-at="2026-06-16T16:44:58 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headTrainee_ShouldReturnBadRequest -->
+      </class> <!-- Com.ApiTest.HeadTest -->
+      <class name="Com.ApiTest.PutTest">
+        <test-method signature="putTrainee_ValidData_ShouldReturnOK()[pri:0, instance:Com.ApiTest.PutTest@6b2ea799]" started-at="2026-06-16T16:44:59 IST" name="putTrainee_ValidData_ShouldReturnOK" finished-at="2026-06-16T16:44:59 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putTrainee_ValidData_ShouldReturnOK -->
+        <test-method signature="putTrainee_ValidData_ShouldReturnUpdatedCompany()[pri:0, instance:Com.ApiTest.PutTest@6b2ea799]" started-at="2026-06-16T16:44:59 IST" name="putTrainee_ValidData_ShouldReturnUpdatedCompany" finished-at="2026-06-16T16:44:59 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putTrainee_ValidData_ShouldReturnUpdatedCompany -->
+      </class> <!-- Com.ApiTest.PutTest -->
+      <class name="Com.ApiTest.OptionsTest">
+        <test-method signature="optionsTrainee_ShouldReturnNoContent()[pri:0, instance:Com.ApiTest.OptionsTest@6771beb3]" started-at="2026-06-16T16:44:58 IST" name="optionsTrainee_ShouldReturnNoContent" finished-at="2026-06-16T16:44:58 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optionsTrainee_ShouldReturnNoContent -->
+      </class> <!-- Com.ApiTest.OptionsTest -->
+      <class name="Com.ApiTest.GetTest">
+        <test-method signature="getTrainee_InvalidId_ShouldReturnNotFound()[pri:0, instance:Com.ApiTest.GetTest@30c15d8b]" started-at="2026-06-16T16:44:58 IST" name="getTrainee_InvalidId_ShouldReturnNotFound" finished-at="2026-06-16T16:44:58 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrainee_InvalidId_ShouldReturnNotFound -->
+        <test-method signature="getTrainee_ValidId_ShouldReturnCorrectName()[pri:0, instance:Com.ApiTest.GetTest@30c15d8b]" started-at="2026-06-16T16:44:58 IST" name="getTrainee_ValidId_ShouldReturnCorrectName" finished-at="2026-06-16T16:44:58 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrainee_ValidId_ShouldReturnCorrectName -->
+        <test-method signature="getTrainee_ValidId_ShouldReturnOK()[pri:0, instance:Com.ApiTest.GetTest@30c15d8b]" started-at="2026-06-16T16:44:58 IST" name="getTrainee_ValidId_ShouldReturnOK" finished-at="2026-06-16T16:44:58 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrainee_ValidId_ShouldReturnOK -->
+      </class> <!-- Com.ApiTest.GetTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
