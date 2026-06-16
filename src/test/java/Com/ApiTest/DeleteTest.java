@@ -12,7 +12,7 @@ public class DeleteTest {
         int statusCode = RestAssured
                 .given()
                 .when()
-                .delete("http://localhost:3000/trainee/my541FkJGGY")
+                .delete("http://localhost:3000/trainee/TXgkiVeXmMc")
                 .getStatusCode();
 
         System.out.println("DELETE Status Code: " + statusCode);

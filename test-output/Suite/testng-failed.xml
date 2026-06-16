@@ -3,6 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Com.ApiTest.PatchTest">
+        <methods>
+          <include name="patchTrainee_ValidData_ShouldReturnOK"/>
+          <include name="patchTrainee_ValidData_ShouldReturnUpdatedCompany"/>
+        </methods>
+      </class> <!-- Com.ApiTest.PatchTest -->
       <class name="Com.ApiTest.DeleteTest">
         <methods>
           <include name="deleteTrainee_ValidId_ShouldReturnOK"/>

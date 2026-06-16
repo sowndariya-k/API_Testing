@@ -2,13 +2,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="Com.ApiTest.DeleteTest"/>
-      <class  name="Com.ApiTest.GetTest"/>
-      <class name="Com.ApiTest.HeadTest"/>
-      <class name="Com.ApiTest.OptionsTest"/>
-      <class name="Com.ApiTest.PostTest"/>
-      <class name="Com.ApiTest.PutTest"/>
-    </classes>
+     <packages>
+            <package name="Com.ApiTest"/>
+        </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

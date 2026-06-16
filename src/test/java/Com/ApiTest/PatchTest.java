@@ -21,7 +21,7 @@ public class PatchTest {
                 .contentType(ContentType.JSON)
                 .body(requestBody)
                 .when()
-                .patch("http://localhost:3000/trainee/5")
+                .patch("http://localhost:3000/trainee/2")
                 .getStatusCode();
 
         System.out.println("PATCH Status Code: " + statusCode);
@@ -35,18 +35,18 @@ public class PatchTest {
     @Test
     public void patchTrainee_ValidData_ShouldReturnUpdatedCompany() {
 
-        String requestBody = "{ \"company\": \"Smartcliff\" }";
+        String requestBody = "{ \"company\": \"ZOHO\" }";
 
         String company = RestAssured
                 .given()
                 .contentType(ContentType.JSON)
                 .body(requestBody)
                 .when()
-                .patch("http://localhost:3000/trainee/5")
+                .patch("http://localhost:3000/trainee/2")
                 .jsonPath()
                 .getString("company");
 
         System.out.println("PATCH Company: " + company);
-        Assert.assertEquals(company, "Smartcliff");
+        Assert.assertEquals(company, "ZOHO");
     }
 }
