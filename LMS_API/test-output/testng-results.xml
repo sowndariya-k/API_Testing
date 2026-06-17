@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-17T12:23:57 IST" name="Suite" finished-at="2026-06-17T12:24:21 IST" duration-ms="24366">
+    <groups>
+    </groups>
+    <test started-at="2026-06-17T12:23:57 IST" name="Test" finished-at="2026-06-17T12:24:21 IST" duration-ms="24366">
+      <class name="Com.ApiTest.RolesTest">
+        <test-method signature="getRoles()[pri:0, instance:Com.ApiTest.RolesTest@139982de]" started-at="2026-06-17T12:24:16 IST" name="getRoles" finished-at="2026-06-17T12:24:17 IST" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRoles -->
+      </class> <!-- Com.ApiTest.RolesTest -->
+      <class name="Com.ApiTest.GetAllNotesTest">
+        <test-method signature="getAllNotes()[pri:0, instance:Com.ApiTest.GetAllNotesTest@10683d9d]" started-at="2026-06-17T12:24:07 IST" name="getAllNotes" finished-at="2026-06-17T12:24:08 IST" depends-on-methods="Com.ApiTest.CreateNoteTest.createNote" duration-ms="1618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllNotes -->
+      </class> <!-- Com.ApiTest.GetAllNotesTest -->
+      <class name="Com.ApiTest.CourseStructureTest">
+        <test-method signature="getCourseStructure()[pri:0, instance:Com.ApiTest.CourseStructureTest@815b41f]" started-at="2026-06-17T12:23:57 IST" name="getCourseStructure" finished-at="2026-06-17T12:24:05 IST" duration-ms="8179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCourseStructure -->
+      </class> <!-- Com.ApiTest.CourseStructureTest -->
+      <class name="Com.ApiTest.TogglePinTest">
+        <test-method signature="togglePin()[pri:0, instance:Com.ApiTest.TogglePinTest@682b2fa]" started-at="2026-06-17T12:24:17 IST" name="togglePin" finished-at="2026-06-17T12:24:19 IST" depends-on-methods="Com.ApiTest.CreateNoteTest.createNote" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- togglePin -->
+      </class> <!-- Com.ApiTest.TogglePinTest -->
+      <class name="Com.ApiTest.DeleteNoteTest">
+        <test-method signature="deleteNote()[pri:0, instance:Com.ApiTest.DeleteNoteTest@1f2586d6]" started-at="2026-06-17T12:24:20 IST" name="deleteNote" finished-at="2026-06-17T12:24:21 IST" depends-on-methods="Com.ApiTest.CreateNoteTest.createNote, Com.ApiTest.UpdateNoteTest.updateNote, Com.ApiTest.TogglePinTest.togglePin" duration-ms="1329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNote -->
+      </class> <!-- Com.ApiTest.DeleteNoteTest -->
+      <class name="Com.ApiTest.LoginTest">
+        <test-method signature="loginTest()[pri:0, instance:Com.ApiTest.LoginTest@385c9627]" started-at="2026-06-17T12:24:12 IST" name="loginTest" finished-at="2026-06-17T12:24:16 IST" duration-ms="3586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Com.ApiTest.LoginTest -->
+      <class name="Com.ApiTest.HealthCheckTest">
+        <test-method signature="healthCheck()[pri:0, instance:Com.ApiTest.HealthCheckTest@5aa9e4eb]" started-at="2026-06-17T12:24:10 IST" name="healthCheck" finished-at="2026-06-17T12:24:11 IST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthCheck -->
+      </class> <!-- Com.ApiTest.HealthCheckTest -->
+      <class name="Com.ApiTest.CreateNoteTest">
+        <test-method signature="createNote()[pri:0, instance:Com.ApiTest.CreateNoteTest@2f4948e4]" started-at="2026-06-17T12:24:05 IST" name="createNote" finished-at="2026-06-17T12:24:07 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNote -->
+      </class> <!-- Com.ApiTest.CreateNoteTest -->
+      <class name="Com.ApiTest.GetNoteByIdTest">
+        <test-method signature="getNoteById()[pri:0, instance:Com.ApiTest.GetNoteByIdTest@3fc2959f]" started-at="2026-06-17T12:24:08 IST" name="getNoteById" finished-at="2026-06-17T12:24:10 IST" depends-on-methods="Com.ApiTest.CreateNoteTest.createNote" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNoteById -->
+      </class> <!-- Com.ApiTest.GetNoteByIdTest -->
+      <class name="Com.ApiTest.InstitutionTest">
+        <test-method signature="getAllInstitution()[pri:0, instance:Com.ApiTest.InstitutionTest@6989da5e]" started-at="2026-06-17T12:24:11 IST" name="getAllInstitution" finished-at="2026-06-17T12:24:12 IST" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllInstitution -->
+      </class> <!-- Com.ApiTest.InstitutionTest -->
+      <class name="Com.ApiTest.UpdateNoteTest">
+        <test-method signature="updateNote()[pri:0, instance:Com.ApiTest.UpdateNoteTest@217ed35e]" started-at="2026-06-17T12:24:19 IST" name="updateNote" finished-at="2026-06-17T12:24:20 IST" depends-on-methods="Com.ApiTest.CreateNoteTest.createNote" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNote -->
+      </class> <!-- Com.ApiTest.UpdateNoteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
