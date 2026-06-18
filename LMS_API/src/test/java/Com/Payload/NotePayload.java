@@ -2,7 +2,10 @@ package Com.Payload;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.testng.annotations.Listeners;
 
+
+@Listeners(listeners.ExtentReportListener.class)
 public class NotePayload {
 
     public static JSONObject createNotePayload() {

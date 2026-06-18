@@ -1,6 +1,7 @@
 package Com.ApiTest;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.json.JSONObject;
 
@@ -9,6 +10,7 @@ import Com.Payload.NotePayload;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
+@Listeners(listeners.ExtentReportListener.class)
 public class CreateNoteTest extends BaseTest {
 
     @Test
