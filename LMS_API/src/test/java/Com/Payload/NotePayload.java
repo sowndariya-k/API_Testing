@@ -25,4 +25,19 @@ public class NotePayload {
 
         return payload;
     }
+    
+    //only title 
+    public static JSONObject minimalNotePayload() {
+        JSONObject payload = new JSONObject();
+        payload.put("title", "Minimal Note");
+        return payload;
+    }
+    
+    //updated payload partial fields
+    public static JSONObject updateNotePayload() {
+        JSONObject payload = new JSONObject();
+        payload.put("title",   "Updated Note Title");
+        payload.put("content", "Updated content via test");
+        return payload;
+    }
 }
